@@ -118,3 +118,50 @@ body {
 .contact-card__body__body {
     font-size: 12px;
 }
+
+/* Contact Card Component ends */
+
+/* profile Card Component */
+.profile-card {
+    align-items: center;
+    background-color: green;
+    /* border-top-left-radius: 24px;
+    border-bottom-left-radius: 24px; */
+    display: flex;
+    flex-direction: column;
+    height: 150px;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.profile-card__image {
+    /* margin-left: 6px;
+    margin-right: 6px; */
+    height: inherit;
+}
+
+.profile-card__image img {
+    border-radius: 100%;
+    height: 100px;
+    width: 100px;
+}
+
+.profile-card__body {
+    text-align: center;
+}
+
+.profile-card__body__header,
+.profile-card__body__body {
+    line-height: 1.5;
+    margin: 0;
+}
+
+.profile-card__body__header {
+    font-size: 18px;
+}
+
+.profile-card__body__body {
+    font-size: 14px;
+}
+
+/* profile Card Component ends */
