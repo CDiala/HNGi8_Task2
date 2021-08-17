@@ -83,3 +83,38 @@ body {
 }
 
 /* Section Divider ends */
+
+/* Contact Card Component */
+.contact-card {
+    align-items: center;
+    background-color: green;
+    border-top-left-radius: 24px;
+    border-bottom-left-radius: 24px;
+    display: flex;
+    height: 48px;
+    width: 100%;
+}
+
+.contact-card__image {
+    margin-left: 6px;
+    margin-right: 6px;
+    height: 38px;
+}
+
+.contact-card__image img {
+    border-radius: 100%;
+}
+
+.contact-card__body__header,
+.contact-card__body__body {
+    line-height: 1;
+    margin: 0;
+}
+
+.contact-card__body__header {
+    font-size: 16px;
+}
+
+.contact-card__body__body {
+    font-size: 12px;
+}
