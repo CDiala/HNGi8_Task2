@@ -87,12 +87,14 @@ body {
 /* Contact Card Component */
 .contact-card {
     align-items: center;
-    background-color: green;
-    border-top-left-radius: 24px;
-    border-bottom-left-radius: 24px;
+    background-color: #afa591;
+    /* border-top-left-radius: 24px;
+    border-bottom-left-radius: 24px; */
+    border-radius: 24px;
     display: flex;
     height: 48px;
-    width: 100%;
+    margin: 10px auto;
+    width: 70%;
 }
 
 .contact-card__image {
@@ -105,6 +107,11 @@ body {
     border-radius: 100%;
 }
 
+.img1 {
+    height: 38px;
+    width: 38px;
+}
+
 .contact-card__body__header,
 .contact-card__body__body {
     line-height: 1;
@@ -115,8 +122,9 @@ body {
     font-size: 16px;
 }
 
-.contact-card__body__body {
-    font-size: 12px;
+.contact-url {
+    color: mediumblue;
+    font-size: 100%;
 }
 
 /* Contact Card Component ends */
@@ -124,12 +132,14 @@ body {
 /* profile Card Component */
 .profile-card {
     align-items: center;
-    background-color: green;
+    /* background-color: green; */
     /* border-top-left-radius: 24px;
     border-bottom-left-radius: 24px; */
+    color: white;
     display: flex;
     flex-direction: column;
-    height: 150px;
+    margin-bottom: 60px;
+    /* height: 150px; */
     justify-content: space-between;
     width: 100%;
 }
@@ -138,11 +148,13 @@ body {
     /* margin-left: 6px;
     margin-right: 6px; */
     height: inherit;
+    margin-top: 60px;
 }
 
 .profile-card__image img {
     border-radius: 100%;
     height: 100px;
+    object-fit: cover;
     width: 100px;
 }
 
@@ -217,4 +229,59 @@ body {
     color: white;
     padding: 5px 50px;
     background-color: rosybrown;
+}
+
+/* resume container */
+.resume-container {
+    display: flex;
+}
+
+.profile-container {
+    background-color: #04152a;
+    display: flex;
+    flex-direction: column;
+    height: 100vw;
+    width: 40vw;
+}
+
+.resume-container, 
+.profile-container {
+    height: 100vh;
+}
+
+.main-container {
+    background-color: burlywood;
+    width: 60vw;
+}
+
+@media screen and (max-width: 768px) {
+    .resume-container {       
+        height: 50vh;
+        flex-direction: column;
+    }
+
+    .profile-container {
+        /* background-color: #04152a; */
+        /* height: initial; */
+        width: 100%;
+    }
+    
+    .main-container {
+        /* background-color: burlywood; */
+        width: 100%;
+    }
+
+    .contact-card {
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .contact-card {
+        width: 70%;
+    }
+
+    .contact-card__body__header {
+        font-size: 14px;
+    }
 }
