@@ -32,11 +32,11 @@ body {
 
 .section-divider {
   align-items: center;
-  background-color: grey;
+  /* background-color: grey; */
   display: flex;
-  height: 100px;
-  justify-content: center;
-  width: 600px;
+  /* height: 100px; */
+  /* justify-content: center; */
+  /* width: 600px; */
 }
 
 .section-divider__lg,
@@ -45,9 +45,10 @@ body {
 }
 
 .section-divider__lg {
-  background-color: #051429;
-  height: 25%;
-  width: 80%;
+  /* background-color: #051429; */
+  flex-grow: 1;
+  /* height: 25%;
+  width: 80%; */
 }
 
 .section-divider__title {
@@ -87,7 +88,7 @@ body {
 /* Contact Card Component */
 .contact-card {
     align-items: center;
-    background-color: #afa591;
+    background-color: #b3b348;
     /* border-top-left-radius: 24px;
     border-bottom-left-radius: 24px; */
     border-radius: 24px;
@@ -138,7 +139,7 @@ body {
     color: white;
     display: flex;
     flex-direction: column;
-    margin-bottom: 60px;
+    margin-bottom: 30px;
     /* height: 150px; */
     justify-content: space-between;
     width: 100%;
@@ -250,11 +251,19 @@ body {
 }
 
 .main-container {
-    background-color: burlywood;
+    background-color: #f2f2f2;
     width: 60vw;
 }
 
+.container-space {
+    padding: 60px 40px 0;
+}
+
 @media screen and (max-width: 768px) {
+    .container-space {
+        padding: 60px 140px 0;
+    }
+
     .resume-container {       
         height: 50vh;
         flex-direction: column;
@@ -263,6 +272,7 @@ body {
     .profile-container {
         /* background-color: #04152a; */
         /* height: initial; */
+        padding-bottom: 60px;
         width: 100%;
     }
     
@@ -277,11 +287,65 @@ body {
 }
 
 @media screen and (max-width: 425px) {
+    .container-space {
+        padding: 60px 40px 0;
+    }
+
     .contact-card {
         width: 70%;
     }
 
     .contact-card__body__header {
         font-size: 14px;
+    }
+
+    .main-container {
+        width: 100vw;
+    }
+
+    .main-sub-container {
+        margin: 0 auto;
+        max-width: 80%;
+    }
+}
+
+/* Main section */
+.main-header {
+    margin: 0;
+}
+
+.main-body {
+    font-size: 1.6rem;
+    line-height: 1.5;
+    margin-bottom: 40px;
+    text-align: justify;
+}
+
+/* skill container */
+.skill {
+    width: 50px;
+}
+
+.skill-container {
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px 0;
+}
+
+@media screen and (max-width: 527px) {
+    .skill-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .skill {
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .section-divider__title {
+        font-size: 17px;
     }
 }
