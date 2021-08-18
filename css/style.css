@@ -165,3 +165,56 @@ body {
 }
 
 /* profile Card Component ends */
+
+
+/* experience card component */
+.experience-card {
+    margin: 4rem;
+    /* background-color: grey; */
+    /* align-items: center; */
+    display: flex;
+    flex-direction: column;
+    /* height: inherit; */
+    justify-content: center;
+    text-align: center;
+    width: 300px;
+}
+
+.experience-card__top img {
+    border-radius: 100%;
+    margin-top: 15px;
+}
+
+.experience-card__line::after {
+    background-color: rgb(15, 15, 15);
+    color: white;
+    content: 'p';
+    line-height: 10;
+    padding: 39px 0px 22px;
+    font-size: 8px;
+}
+
+.experience-card__body {
+    background-color: white;
+    margin: -70px auto 15px;
+    width: 60%;
+    position: relative;
+}
+
+.experience-card__body * {
+    margin: 0;
+}
+
+.experience-card__bottom {
+    background-color: blanchedalmond;
+    height: 31px;
+}
+
+.experience-card__bottom::before {
+    content: '2021';
+    font-size: 19px;
+    line-height: 1.7;
+    color: white;
+    padding: 5px 50px;
+    background-color: rosybrown;
+}
