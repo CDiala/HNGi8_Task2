@@ -7,7 +7,7 @@ function printName() {
         console.log(name);
         result.innerHTML = name;
     } else {
-        console.log('please provide a string');
-        result.innerHTML = 'please provide a string';
+        console.log('please provide correct name');
+        result.innerHTML = 'please provide correct name';
     } 
 }
