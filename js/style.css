@@ -1,0 +1,42 @@
+.program-container {
+    background-color: grey;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    margin: 80px auto;
+    padding: 60px;
+    width: 600px;
+}
+
+#result {
+    border-radius: 12px;
+    border: 1px solid grey;
+    font-size: 20px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    outline: none;
+    padding: 10px;
+    text-align: center;
+    width: 60%;
+}
+
+.submit {
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 30px;
+    margin: 0 auto 30px;
+    outline: none;
+    padding: 10px;
+    width: 50%;
+}
+
+#answer {
+    background: #e4dbdb;
+    font-size: 24px;
+    text-align: center;
+    height: 28px;
+    margin: 0 auto;
+    width: 65%;
+}
