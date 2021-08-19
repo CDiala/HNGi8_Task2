@@ -1,0 +1,26 @@
+{
+  "name": "HNGi8_Task2",
+  "version": "1.0.0",
+  "description": "This repo contains the following:",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CDiala/HNGi8_Task2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CDiala/HNGi8_Task2/issues"
+  },
+  "homepage": "https://github.com/CDiala/HNGi8_Task2#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  }
+}
