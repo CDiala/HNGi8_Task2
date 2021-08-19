@@ -1,11 +1,3 @@
-:root {
-  --color-back-footer: #f2f2f2;
-  --color-body-main: #282725;
-  --color-link-footer: #737478;
-  --color-main: #583d4e;
-  --color-profile: #c2175b;
-}
-
 *,
 *::before,
 *::after {
@@ -32,11 +24,7 @@ body {
 
 .section-divider {
   align-items: center;
-  /* background-color: grey; */
   display: flex;
-  /* height: 100px; */
-  /* justify-content: center; */
-  /* width: 600px; */
 }
 
 .section-divider__lg,
@@ -45,11 +33,7 @@ body {
 }
 
 .section-divider__lg {
-  /* background-color: #051429; */
   flex-grow: 1;
-  /* margin-left: -6px; */
-  /* height: 25%;
-  width: 80%; */
 }
 
 .section-divider__title {
@@ -57,7 +41,6 @@ body {
   font-size: 18px;
   font-style: italic;
   margin: 0;
-  /* text-align: right; */
 }
 
 .section-divider__title__left {
@@ -83,7 +66,6 @@ body {
   display: flex;
   height: 60px;
   justify-content: center;
-  /* margin-left: -8px; */
   object-fit: cover;
   width: 60px;
 }
@@ -99,9 +81,7 @@ body {
 /* Contact Card Component */
 .contact-card {
   align-items: center;
-  background-color: #b3b348;
-  /* border-top-left-radius: 24px;
-    border-bottom-left-radius: 24px; */
+  background-color: #67bcc1;
   border-radius: 24px;
   display: flex;
   height: 48px;
@@ -144,30 +124,24 @@ body {
 /* profile Card Component */
 .profile-card {
   align-items: center;
-  /* background-color: green; */
-  /* border-top-left-radius: 24px;
-    border-bottom-left-radius: 24px; */
   color: white;
   display: flex;
   flex-direction: column;
   margin-bottom: 30px;
-  /* height: 150px; */
   justify-content: space-between;
   width: 100%;
 }
 
 .profile-card__image {
-  /* margin-left: 6px;
-    margin-right: 6px; */
   height: inherit;
   margin-top: 60px;
 }
 
 .profile-card__image img {
   border-radius: 100%;
-  height: 100px;
+  height: 200px;
   object-fit: cover;
-  width: 100px;
+  width: 200px;
 }
 
 .profile-card__body {
@@ -181,26 +155,19 @@ body {
 }
 
 .profile-card__body__header {
-  font-size: 18px;
+  font-size: 26px;
 }
 
 .profile-card__body__body {
-  font-size: 14px;
+  font-size: 20px;
 }
 
 /* profile Card Component ends */
 
 /* experience card component */
 .experience-card {
-  /* margin: 4rem; */
-  /* background-color: grey; */
-  /* align-items: center; */
-  /* display: flex;
-    flex-direction: column; */
-  /* height: inherit; */
-  /* justify-content: center; */
   text-align: center;
-  width: 100%;
+  width: 30%;
 }
 
 .experience-card__top img {
@@ -222,7 +189,6 @@ body {
   background-color: #f2f2f2;
   margin: -70px auto 15px;
   position: relative;
-  /* width: 60%; */
 }
 
 .experience-card__body * {
@@ -230,12 +196,12 @@ body {
 }
 
 .experience-card__bottom {
-  background-color: blanchedalmond;
+  background-color: #1b73ba;
   height: 31px;
 }
 
 .experience-card__bottom::before {
-  background-color: rosybrown;
+  background-color: #03a5d1;
   color: white;
   content: "2021";
   font-size: 19px;
@@ -284,14 +250,11 @@ body {
   }
 
   .profile-container {
-    /* background-color: #04152a; */
-    /* height: initial; */
     padding-bottom: 60px;
     width: 100%;
   }
 
   .main-container {
-    /* background-color: burlywood; */
     width: 100%;
   }
 
@@ -367,6 +330,7 @@ body {
 
 /* experience section */
 .experience-block {
+  align-items: baseline;
   column-gap: 10px;
   display: flex;
   justify-content: space-evenly;
@@ -390,22 +354,15 @@ body {
 }
 
 .training {
-    max-width: 65%;
+  max-width: 65%;
   width: 150px;
 }
 
 .training-block {
-  /* align-items: center;
-  display: flex;
-  justify-content: center; */
   text-align: center;
 }
 
-.tr-1 {
-  /* width: 100%; */
-}
-
 .footer {
-    padding: 20px 0;
+  padding: 20px 0;
   text-align: center;
 }
